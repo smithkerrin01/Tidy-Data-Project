@@ -1,5 +1,5 @@
 #CodeBook for meanData.txt
-##Averages Of All Mean and Standard Deviation Measures in the Human Activity Recognition Using Smartphones Dataset 
+##Averages Of All Mean and Standard Deviation Measures in the 'Human Activity Recognition Using Smartphones' Dataset 
 ----------------------------------------------------------------
 
 (*Following the example provided in Getting and Cleaning Data Quiz 1.)
@@ -110,8 +110,8 @@ Mean -- 13
 Acceleration signals from the smartphone accelerometer measured in standard gravity units 'g'. Body acceleration signals obtained by subtracting the gravity from the total acceleration. Angular velocity vectors measured by the gyroscope for each window measured in radians/second.
 
 
-##Notes from the original dataset features_info.txt:
-==================================================
+##Notes from the original dataset features_info.txt
+
 
 ###Feature Selection 
 
