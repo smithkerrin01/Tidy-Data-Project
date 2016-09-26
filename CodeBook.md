@@ -1,4 +1,4 @@
-#CodeBook
+#CodeBook for meanData.txt
 ##Averages Of All Mean and Standard Deviation Measures in the Human Activity Recognition Using Smartphones Dataset 
 ----------------------------------------------------------------
 
@@ -23,93 +23,91 @@ activityName -- 18
 featureVariable -- 28
   * Mean and standard deviation feature variables. The variables were cleaned by removing all hyphens and parens, and capitalizing 'mean' and 'std'.
 	 
-		tBodyAccMeanX
- 		tBodyAccMeanY
-		tBodyAccMeanZ
- 		tBodyAccStdX
- 		tBodyAccStdY
- 		tBodyAccStdZ
- 		tGravityAccMeanX
- 		tGravityAccMeanY
- 		tGravityAccMeanZ
- 		tGravityAccStdX
- 		tGravityAccStdY
- 		tGravityAccStdZ
- 		tBodyAccJerkMeanX
- 		tBodyAccJerkMeanY
- 		tBodyAccJerkMeanZ
- 		tBodyAccJerkStdX
- 		tBodyAccJerkStdY
- 		tBodyAccJerkStdZ
- 		tBodyGyroMeanX
- 		tBodyGyroMeanY
- 		tBodyGyroMeanZ
- 		tBodyGyroStdX
- 		tBodyGyroStdY
- 		tBodyGyroStdZ
- 		tBodyGyroJerkMeanX
- 		tBodyGyroJerkMeanY
- 		tBodyGyroJerkMeanZ
- 		tBodyGyroJerkStdX
- 		tBodyGyroJerkStdY
- 		tBodyGyroJerkStdZ
- 		tBodyAccMagMean
- 		tBodyAccMagStd
- 		tGravityAccMagMean
- 		tGravityAccMagStd
- 		tBodyAccJerkMagMean
- 		tBodyAccJerkMagStd
- 		tBodyGyroMagMean
- 		tBodyGyroMagStd
- 		tBodyGyroJerkMagMean
- 		tBodyGyroJerkMagStd
- 		fBodyAccMeanX
- 		fBodyAccMeanY
- 		fBodyAccMeanZ
- 		fBodyAccStdX
- 		fBodyAccStdY
- 		fBodyAccStdZ
- 		fBodyAccMeanFreqX
- 		fBodyAccMeanFreqY
- 		fBodyAccMeanFreqZ
- 		fBodyAccJerkMeanX
- 		fBodyAccJerkMeanY
- 		fBodyAccJerkMeanZ
- 		fBodyAccJerkStdX
- 		fBodyAccJerkStdY
- 		fBodyAccJerkStdZ
- 		fBodyAccJerkMeanFreqX
- 		fBodyAccJerkMeanFreqY
- 		fBodyAccJerkMeanFreqZ
- 		fBodyGyroMeanX
- 		fBodyGyroMeanY
- 		fBodyGyroMeanZ
- 		fBodyGyroStdX
- 		fBodyGyroStdY
- 		fBodyGyroStdZ
- 		fBodyGyroMeanFreqX
- 		fBodyGyroMeanFreqY
- 		fBodyGyroMeanFreqZ
- 		fBodyAccMagMean
- 		fBodyAccMagStd
- 		fBodyAccMagMeanFreq
- 		fBodyBodyAccJerkMagMean
- 		fBodyBodyAccJerkMagStd
- 		fBodyBodyAccJerkMagMeanFreq
- 		fBodyBodyGyroMagMean
- 		fBodyBodyGyroMagStd
- 		fBodyBodyGyroMagMeanFreq
- 		fBodyBodyGyroJerkMagMean
- 		fBodyBodyGyroJerkMagStd
- 		fBodyBodyGyroJerkMagMeanFreq	
+    * tBodyAccMeanX
+    * tBodyAccMeanY
+    * tBodyAccMeanZ
+    * tBodyAccStdX
+    * tBodyAccStdY
+    * tBodyAccStdZ
+    * tGravityAccMeanX
+    * tGravityAccMeanY
+    * tGravityAccMeanZ
+    * tGravityAccStdX
+    * tGravityAccStdY
+    * tGravityAccStdZ
+    * tBodyAccJerkMeanX
+    * tBodyAccJerkMeanY
+    * tBodyAccJerkMeanZ
+    * tBodyAccJerkStdX
+    * tBodyAccJerkStdY
+    * tBodyAccJerkStdZ
+    * tBodyGyroMeanX
+    * tBodyGyroMeanY
+    * tBodyGyroMeanZ
+    * tBodyGyroStdX
+    * tBodyGyroStdY
+    * tBodyGyroStdZ
+    * tBodyGyroJerkMeanX
+    * tBodyGyroJerkMeanY
+    * tBodyGyroJerkMeanZ
+    * tBodyGyroJerkStdX
+    * tBodyGyroJerkStdY
+    * tBodyGyroJerkStdZ
+    * tBodyAccMagMean
+    * tBodyAccMagStd
+    * tGravityAccMagMean
+    * tGravityAccMagStd
+    * tBodyAccJerkMagMean
+    * tBodyAccJerkMagStd
+    * tBodyGyroMagMean
+    * tBodyGyroMagStd
+    * tBodyGyroJerkMagMean
+    * tBodyGyroJerkMagStd
+    * fBodyAccMeanX
+    * fBodyAccMeanY
+    * fBodyAccMeanZ
+    * fBodyAccStdX
+    * fBodyAccStdY
+    * fBodyAccStdZ
+    * fBodyAccMeanFreqX
+    * fBodyAccMeanFreqY
+    * fBodyAccMeanFreqZ
+    * fBodyAccJerkMeanX
+    * fBodyAccJerkMeanY
+    * fBodyAccJerkMeanZ
+    * fBodyAccJerkStdX
+    * fBodyAccJerkStdY
+    * fBodyAccJerkStdZ
+    * fBodyAccJerkMeanFreqX
+    * fBodyAccJerkMeanFreqY
+    * fBodyAccJerkMeanFreqZ
+    * fBodyGyroMeanX
+    * fBodyGyroMeanY
+    * fBodyGyroMeanZ
+    * fBodyGyroStdX
+    * fBodyGyroStdY
+    * fBodyGyroStdZ
+    * fBodyGyroMeanFreqX
+    * fBodyGyroMeanFreqY
+    * fBodyGyroMeanFreqZ
+    * fBodyAccMagMean
+    * fBodyAccMagStd
+    * fBodyAccMagMeanFreq
+    * fBodyBodyAccJerkMagMean
+    * fBodyBodyAccJerkMagStd
+    * fBodyBodyAccJerkMagMeanFreq
+    * fBodyBodyGyroMagMean
+    * fBodyBodyGyroMagStd
+    * fBodyBodyGyroMagMeanFreq
+    * fBodyBodyGyroJerkMagMean
+    * fBodyBodyGyroJerkMagStd
+    * fBodyBodyGyroJerkMagMeanFreq	
 
 Mean -- 13
   * Average of each variable for each activity and each subject
     * -1.0000000000 .. 1.0000000000
 
-  * Acceleration signals from the smartphone accelerometer measured in standard gravity units 'g'.
-  * Body acceleration signals obtained by subtracting the gravity from the total acceleration.
-  * Angular velocity vectors measured by the gyroscope for each window measured in radians/second.
+Acceleration signals from the smartphone accelerometer measured in standard gravity units 'g'. Body acceleration signals obtained by subtracting the gravity from the total acceleration. Angular velocity vectors measured by the gyroscope for each window measured in radians/second.
 
 
 ##Notes from the original dataset features_info.txt:
