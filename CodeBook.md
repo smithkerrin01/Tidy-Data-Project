@@ -1,4 +1,4 @@
-#CodeBook for meanData.txt
+#CodeBook for means_data.txt
 ##Averages Of All Mean and Standard Deviation Measures in the 'Human Activity Recognition Using Smartphones' Dataset 
 ----------------------------------------------------------------
 
