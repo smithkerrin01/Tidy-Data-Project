@@ -71,7 +71,7 @@ The files included in this repo include:
 * README.md
 * run_analysis.R
 * CodeBook.md
-* meanData.txt
+* means_data.txt
 
 run_analysis.R:
 ======================
@@ -81,11 +81,11 @@ run_analysis.R:
 * Extracts only the measurements on the mean and standard deviation for each measurement.
 * Cleans up the feature variable names by removing the hyphens and parens, and capitalizing the M in mean nd S in std.
 * The reshape2 and plyr packages are then used to transform the dataset into a long and narrow tidy dataset containing the average of each variable for each activity and each subject.
-* The final result is then written to a file - meanData.txt
+* The final result is then written to a file - means_data.txt
 
-meanData.txt and CodeBook.md
+means_data.txt and CodeBook.md
 ============================
 
-* meanData.txt contains the long and narrow tidy dataset.
+* means_data.txt contains the long and narrow tidy dataset.
 * CodeBook.md provides details on the variables contained in meanData.txt
 
