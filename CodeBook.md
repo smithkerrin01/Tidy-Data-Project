@@ -5,8 +5,8 @@
 (*Following example provided in Getting and Cleaning Data Quiz 1.)
 
 subjectId	2
-+Subject identifier
-++1 .. 30
+  * Subject identifier
+  ** 1 .. 30
 
 subjectId	2
 *Subject identifier
