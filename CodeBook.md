@@ -1,7 +1,7 @@
 #CodeBook
-##Human Activity Recognition Using Smartphones 
-##Averages Of All Mean and Standard Deviation Measures
-(following example provided in Getting and Cleaning Data Quiz 1)
+##Averages Of All Mean and Standard Deviation Measures in the Human Activity Recognition Using Smartphones Dataset 
+
+(Followed example provided in Getting and Cleaning Data Quiz 1)
 
 
 subjectId	2
