@@ -2,11 +2,13 @@
 ##Averages Of All Mean and Standard Deviation Measures in the Human Activity Recognition Using Smartphones Dataset 
 ----------------------------------------------------------------
 
-(*Following example provided in Getting and Cleaning Data Quiz 1.)
+(*Following the example provided in Getting and Cleaning Data Quiz 1.)
+
 
 subjectId -- 2
   * Subject identifier
     * 1 .. 30
+
 
 activityName -- 18
   * Activity performed by subjects. Each person performed six activities.
@@ -18,8 +20,8 @@ activityName -- 18
     * LAYING		
 		    
 
-featureVariable	    28
-	Mean and standard deviation feature variables.
+featureVariable -- 28
+  * Mean and standard deviation feature variables.
 	 
 		tBodyAccMeanX
  		tBodyAccMeanY
@@ -101,18 +103,13 @@ featureVariable	    28
  		fBodyBodyGyroJerkMagStd
  		fBodyBodyGyroJerkMagMeanFreq	
 
-Mean		    13
-	Average of each variable for each activity and each subject
-	-1.0000000000 .. 1.0000000000
+Mean -- 13
+  * Average of each variable for each activity and each subject
+    * -1.0000000000 .. 1.0000000000
 
-	Acceleration signals from the smartphone accelerometer measured 
-	in standard gravity units 'g'.
-	
-	Body acceleration signals obtained by subtracting the gravity from the 
-	total acceleration.
-	
-	Angular velocity vectors measured by the gyroscope for each window
- 	measured in radians/second.
+  * Acceleration signals from the smartphone accelerometer measured in standard gravity units 'g'.
+  * Body acceleration signals obtained by subtracting the gravity from the total acceleration.
+  * Angular velocity vectors measured by the gyroscope for each window measured in radians/second.
 
 
 Notes from the original dataset features_info.txt:
