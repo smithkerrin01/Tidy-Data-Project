@@ -73,12 +73,19 @@ The files included in this repo include:
 * CodeBook.md
 * meanData.txt
 
-The run_analysis.R script performs the following functions:
-===========================================================
+run_analysis.R:
+======================
 
 * Downloads the dataset as described above, unzips the files, and loads the required data into R. Note, the raw signals are not needed for this assignment and therefore are not loaded.
 * Clips the data for each of the two subject groups together and then merges the training and test sets into one dataset.
 * Extracts only the measurements on the mean and standard deviation for each measurement.
 * Cleans up the feature variable names by removing the hyphens and parens, and capitalizing the M in mean nd S in std.
-* The reshape2 and plyr packages are then used to transform the dataset into a long, narrow tidy dataset containing the average of each variable for each activity and each subject.
-* The final result is written to the file meanData.txt, as provided here.
+* The reshape2 and plyr packages are then used to transform the dataset into a long and narrow tidy dataset containing the average of each variable for each activity and each subject.
+* The final result is then written to a file - meanData.txt
+
+meanData.txt and CodeBook.md
+============================
+
+* meanData.txt contains the long and narrow tidy dataset.
+* CodeBook.md provides details on the variables contained in meanData.txt
+
