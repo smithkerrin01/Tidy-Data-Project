@@ -6,8 +6,8 @@
 
 ================================================================
 *subjectId	2
-**Subject identifier
-***1 .. 30
+	Subject identifier
+		1 .. 30
 
 
 *activityName	     18
