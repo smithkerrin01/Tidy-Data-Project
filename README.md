@@ -26,7 +26,7 @@ For each record it is provided:
 * An identifier of the subject who carried out the experiment.
 
 The original dataset includes the following files:
-=======+++++++++==================================
+==================================================
 
 * 'README.txt'
 * 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -60,19 +60,25 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
 ======================================================================================================================================
 
+Project Files:
+==============
+
 The files included in this repo include:
+
 * README.md
 * run_analysis.R
 * CodeBook.md
 * meanData.txt
 
 The run_analysis.R script performs the following functions:
+===========================================================
+
 * Downloads the dataset as described above, unzips the files, and loads the required data into R. Note, the raw signals are not needed for this assignment and therefore are not loaded.
 * Clips the data for each of the two subject groups together and then merges the training and test sets into one dataset.
 * Extracts only the measurements on the mean and standard deviation for each measurement.
 * Cleans up the feature variable names by removing the hyphens and parens, and capitalizing the M in mean nd S in std.
-* The reshape2 and plyr packages are then used to transform the dataset into a long, narrow tidy dataset containing the average 
-of each variable for each activity and each subject.
+* The reshape2 and plyr packages are then used to transform the dataset into a long, narrow tidy dataset containing the average of each variable for each activity and each subject.
 * The final result is written to the file meanData.txt, as provided here.
