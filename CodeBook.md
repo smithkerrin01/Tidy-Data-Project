@@ -21,7 +21,7 @@ activityName -- 18
 		    
 
 featureVariable -- 28
-  * Mean and standard deviation feature variables.
+  * Mean and standard deviation feature variables. The variables were cleaned by removing all hyphens and parens, and capitalizing 'mean' and 'std'.
 	 
 		tBodyAccMeanX
  		tBodyAccMeanY
@@ -112,10 +112,10 @@ Mean -- 13
   * Angular velocity vectors measured by the gyroscope for each window measured in radians/second.
 
 
-Notes from the original dataset features_info.txt:
+##Notes from the original dataset features_info.txt:
 ==================================================
 
-Feature Selection 
+###Feature Selection 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
 
@@ -172,4 +172,4 @@ tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
 
-The complete list of variables of each feature vector is available in 'features.txt'
+The complete list of variables of each feature vector is available in the original dataset in 'features.txt'
