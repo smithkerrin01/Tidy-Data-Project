@@ -42,8 +42,8 @@ The following files are available for the train and test data. Their description
 * 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 * 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-Notes: 
-======
+###Notes: 
+
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
@@ -54,8 +54,8 @@ For more information about the original dataset contact: activityrecognition@sma
 
 ======================================================================================================================================
 
-Project Files:
-==============
+Coursera Project Files:
+=======================
 
 The files included in this repo include:
 
@@ -64,8 +64,7 @@ The files included in this repo include:
 * CodeBook.md
 * means_data.txt
 
-run_analysis.R:
-======================
+##run_analysis.R:
 
 * Downloads the dataset as described above, unzips the files, and loads the required data into R. Note, the raw signals are not needed for this assignment and therefore are not loaded.
 * Clips the data for each of the two subject groups together and then merges the training and test sets into one dataset.
@@ -74,8 +73,7 @@ run_analysis.R:
 * The reshape2 and plyr packages are then used to transform the dataset into a long and narrow tidy dataset containing the average of each variable for each activity and each subject.
 * The final result is then written to a file - means_data.txt
 
-means_data.txt and CodeBook.md
-============================
+##means_data.txt and CodeBook.md
 
 * means_data.txt contains the long and narrow tidy dataset.
 * CodeBook.md provides details on the variables contained in meanData.txt
