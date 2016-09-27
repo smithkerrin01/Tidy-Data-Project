@@ -76,5 +76,5 @@ The files included in this repo include:
 ##means_data.txt and CodeBook.md
 
 * means_data.txt contains the long and narrow tidy dataset.
-* CodeBook.md provides details on the variables contained in meanData.txt
+* CodeBook.md provides details on the variables contained in means_data.txt
 
